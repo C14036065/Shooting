@@ -41,7 +41,6 @@ public slots:
     void lose();
     void countTime();
 
-
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;

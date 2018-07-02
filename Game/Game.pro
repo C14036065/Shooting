@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-06-05T00:36:29
+# Project created by QtCreator 2018-06-17T18:12:26
 #
 #-------------------------------------------------
 
@@ -26,24 +26,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    player.cpp \
-    enemy.cpp \
     bullet.cpp \
     character.cpp \
-    health.cpp \
-    score.cpp \
     dialog.cpp \
+    enemy.cpp \
+    health.cpp \
+    player.cpp \
+    score.cpp \
     special.cpp
 
 HEADERS += \
         mainwindow.h \
-    character.h \
-    player.h \
-    enemy.h \
     bullet.h \
-    health.h \
-    score.h \
+    character.h \
     dialog.h \
+    enemy.h \
+    health.h \
+    player.h \
+    score.h \
     special.h
 
 FORMS += \
@@ -52,5 +52,3 @@ FORMS += \
 
 RESOURCES += \
     res/res.qrc
-
-DISTFILES +=

@@ -23,8 +23,8 @@ Player::Player()
 void Player::move()
 {
     QPoint m_pos = QCursor::pos();
-    int xx = m_pos.x() - 2*pixmap().width();
-    int yy = m_pos.y() - 1.5*pixmap().height();
+    int xx = m_pos.x() - 2.5*pixmap().width();
+    int yy = m_pos.y() - 2*pixmap().height();
 
     if (xx <= 0)
     {
@@ -99,7 +99,7 @@ void Player::hurt()
 
 void Player::spAttack()
 {
-    if (sp >= 32)
+    if (sp >= 16)
     {
         QList<QGraphicsItem*> all = scene()->items();
 
@@ -112,7 +112,7 @@ void Player::spAttack()
             }
         }
 
-        sp -= 32;
+        sp -= 16;
         setHpSp();
     }
 

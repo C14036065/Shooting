@@ -40,7 +40,6 @@ void Enemy::move()
     setHpSp();
 }
 
-
 void Enemy::shoot()
 {
     Bullet *b = new Bullet(QString("enemy"));
@@ -136,5 +135,4 @@ void Enemy::horizontal_move()
     }
 
 }
-
 

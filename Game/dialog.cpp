@@ -22,27 +22,18 @@ void Dialog::receiveShow()
     ui->contiButton->setEnabled(true);
 }
 
-
 void Dialog::playAgainShow()
 {
     this->show();
     ui->contiButton->setEnabled(false);
 }
 
-void Dialog::on_bossButton_clicked()
+void Dialog::on_startButton_clicked()
 {
     this->hide();
     ui->contiButton->setEnabled(false);
     emit mainwindowShow();
 }
-
-
-void Dialog::on_endButton_clicked()
-{
-    emit quit();
-}
-
-
 
 void Dialog::on_contiButton_clicked()
 {
@@ -51,3 +42,7 @@ void Dialog::on_contiButton_clicked()
     emit contiShow();
 }
 
+void Dialog::on_endButton_clicked()
+{
+    emit quit();
+}

@@ -1,13 +1,13 @@
 <RCC>
     <qresource prefix="/">
-        <file>paper-plane.png</file>
-        <file>jupiter.png</file>
-        <file>player-bullet.png</file>
-        <file>enemy-bullet.png</file>
         <file>click-bullet.png</file>
+        <file>enemy-bullet.png</file>
+        <file>jupiter.png</file>
+        <file>lose.png</file>
+        <file>paper-plane.png</file>
+        <file>player-bullet.png</file>
+        <file>sp-bullet.png</file>
         <file>title.png</file>
         <file>win.png</file>
-        <file>lose.png</file>
-        <file>sp-bullet.png</file>
     </qresource>
 </RCC>

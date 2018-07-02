@@ -16,14 +16,12 @@ public:
     explicit Dialog(QWidget *parent = 0);
     ~Dialog();
 
-
 private slots:
     void receiveShow();
     void playAgainShow();
-    void on_bossButton_clicked();
+    void on_startButton_clicked();
     void on_contiButton_clicked();
     void on_endButton_clicked();
-
 
 signals:
     void mainwindowShow();

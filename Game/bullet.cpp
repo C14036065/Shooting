@@ -134,7 +134,6 @@ void Bullet::moveToDown()
     }
 }
 
-
 void Bullet::hitEnemy()
 {
     QList<QGraphicsItem *> colliding_item = collidingItems();

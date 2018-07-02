@@ -8,7 +8,6 @@
 #include <QString>
 #include <QList>
 
-
 class Bullet : public QObject, public QGraphicsPixmapItem
 {
     Q_OBJECT

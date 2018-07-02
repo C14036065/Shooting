@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1200</width>
-    <height>729</height>
+    <width>1301</width>
+    <height>760</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,23 +17,20 @@
    <widget class="QGraphicsView" name="graphicsView">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>40</x>
+      <y>40</y>
       <width>950</width>
       <height>650</height>
      </rect>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_time">
     <property name="geometry">
      <rect>
-      <x>960</x>
-      <y>10</y>
-      <width>400</width>
-      <height>40</height>
+      <x>1010</x>
+      <y>40</y>
+      <width>271</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
@@ -45,11 +42,24 @@
      <string>TextLabel</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_control">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>130</y>
+      <width>251</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Control : mouse&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Attack :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Normal : Left button&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Special : Right button&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;(Clear all bullets)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="pauseButton">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>570</y>
+      <x>1030</x>
+      <y>600</y>
       <width>89</width>
       <height>25</height>
      </rect>
@@ -61,8 +71,8 @@
    <widget class="QPushButton" name="endButton">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>620</y>
+      <x>1030</x>
+      <y>650</y>
       <width>89</width>
       <height>25</height>
      </rect>
@@ -71,31 +81,13 @@
      <string>End</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_control">
-    <property name="geometry">
-     <rect>
-      <x>960</x>
-      <y>90</y>
-      <width>231</width>
-      <height>301</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>11</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Control : mouse&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Attack :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Normal : Left button&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Special : Right button&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;(Clear all bullets)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1200</width>
+     <width>1301</width>
      <height>28</height>
     </rect>
    </property>

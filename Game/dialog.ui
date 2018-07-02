@@ -13,32 +13,6 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QPushButton" name="bossButton">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>50</y>
-     <width>89</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Boss Fight</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="endButton">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>240</y>
-     <width>89</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>End</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -52,6 +26,19 @@
     <string>TextLabel</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="startButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>50</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
   <widget class="QPushButton" name="contiButton">
    <property name="enabled">
     <bool>false</bool>
@@ -59,7 +46,7 @@
    <property name="geometry">
     <rect>
      <x>250</x>
-     <y>200</y>
+     <y>110</y>
      <width>89</width>
      <height>25</height>
     </rect>
@@ -68,20 +55,17 @@
     <string>Continue</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="survivalButton">
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
+  <widget class="QPushButton" name="endButton">
    <property name="geometry">
     <rect>
      <x>250</x>
-     <y>90</y>
+     <y>170</y>
      <width>89</width>
      <height>25</height>
     </rect>
    </property>
    <property name="text">
-    <string>Survival</string>
+    <string>End</string>
    </property>
   </widget>
  </widget>

@@ -135,7 +135,6 @@ void MainWindow::gameStart()
     player->t->start(500);
 }
 
-
 void MainWindow::conti()
 {
     this->setWindowState(Qt::WindowMaximized);
